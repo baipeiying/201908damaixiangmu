@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>麦子</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1RxAHSmrqK1RjSZK9XXXyypXa-16-16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script>
+		~ function () {
+			let evt = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+
+			function computed() {
+				let HTML = document.documentElement,
+					deviceW = HTML.clientWidth,
+					designW = 750,
+					ratio = deviceW / designW * 100;
+				if (deviceW >= designW) ratio = 100;
+				HTML.style.fontSize = ratio + 'px';
+			}
+			computed();
+			window.addEventListener(evt, computed);
+		}();
+    </script>
+    
+</head>
+<body>
+    <div id="logo-box">
+        <img src="//gw.alicdn.com/tfs/TB1QfeUQAvoK1RjSZFDXXXY3pXa-300-138.png" alt="" class="logo">
+    </div>
+    <div id="register">
+           
+            
+        <input type="tel"  id="phone" placeholder="请输入手机号" autocapitalize="off">
+        <input type="tel" id="smscode" tabindex="2" placeholder="请输入验证码" maxlength="6" autocomplete="off" autocapitalize="off" >
+       <div id="code">获取验证码</div>
+    </div>
+    <div class="login">登录</div>
+    <div class="appleId">账号密码登录</div>
+    <div class="post">新用户注册</div>
+     <div class="other">其它方式登录</div>
+     <div class="chart">
+         <a href=""></a>
+     </div>
+</body>
+</html>

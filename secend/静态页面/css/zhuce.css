@@ -1,0 +1,42 @@
+
+
+#xialakuang {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#body a {
+    display: block;
+    padding: 10px 15px;
+    color: #C4C4C4;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#body a:link {
+    text-decoration: none;
+    background-color: white;
+}
+
+#body a:hover {
+    background-color: white;
+    color: white;
+}
+
+.anniu {
+    background-color: black;
+    width: 6rem;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#body:hover #xialakuang {
+    display: block;
+}
+
+#body:hover .anniu {
+    background-color: #3E3D3D;
+}

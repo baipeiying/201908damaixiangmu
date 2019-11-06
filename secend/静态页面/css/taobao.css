@@ -1,0 +1,56 @@
+
+.logo{
+    width: 2rem;
+    height: 2rem;
+    margin: .2rem 2.5rem;
+}
+.logo .chart{
+    width: 2rem;
+    height: 2rem;
+}
+.user{
+    width: 6.7rem;
+    height: .8rem;
+    background: #fff;
+    line-height: .8rem;
+    border-bottom: 1px solid rgba(153, 153, 153, .6);
+    margin-left: .3rem;
+    color: #666;
+    font-size: .3rem;
+    text-indent: .3rem;
+}
+.enroll{
+    width: 6.7rem;
+    height: .8rem;
+    background: #fff;
+    line-height: .8rem;
+    border-bottom: 1px solid rgba(153, 153, 153, .6);
+    margin-left: .3rem;
+    color: #666;
+    font-size: .3rem;
+    text-indent: .3rem;
+}
+.confirm{
+    width: 6.7rem;
+    height: .8rem;
+    line-height: .8rem;
+    background: #ff9000;
+    margin-top: .3rem;
+    margin-left: .3rem;
+     color: #ffffff;
+     text-align: center;
+     font-size: .35rem;
+     border-radius: .3rem;
+}
+.written{
+    margin-top: 1.5rem;
+    margin-left: .3rem;
+}
+
+.written ul{
+     margin-top: .2rem;
+     text-indent: .3rem;
+}
+.written .shouquan{
+    margin-top: .2rem;
+}

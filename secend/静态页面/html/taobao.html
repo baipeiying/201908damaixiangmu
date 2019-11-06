@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>淘宝授权</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1RxAHSmrqK1RjSZK9XXXyypXa-16-16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/taobao.css">
+    <script>
+		~ function () {
+			let evt = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+
+			function computed() {
+				let HTML = document.documentElement,
+					deviceW = HTML.clientWidth,
+					designW = 750,
+					ratio = deviceW / designW * 100;
+				if (deviceW >= designW) ratio = 100;
+				HTML.style.fontSize = ratio + 'px';
+			}
+			computed();
+			window.addEventListener(evt, computed);
+		}();
+    </script>
+    
+</head>
+<body>
+     <div class="logo">
+         <img src="../img/dataobao.png" class="chart" alt="">
+     </div>
+     <div class="user">用户名</div>
+     <div class="enroll">请输入登录密码</div>
+     <div class="confirm">确认授权</div>
+     <div class="written">
+            <p><a href="" style=color:black><strong>大麦</strong></a> 将获得以下权限: </p>
+            <ul>
+                    <li>读取你的登录状态信息</li>
+                    <li>获取你的公开信息（登录名、昵称、头像等）</li>
+                    <li>使用身份信息（姓名、手机号、证件号码等）办理业务</li>
+                </ul>
+                <p class="shouquan">授权后表明您已同意 <a href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201805231731_83368.html" target="_blank" title="" style="color: cyan;">《淘宝授权协议》</a>
+                </p>
+     </div>
+
+    
+
+
+
+</body>
+</html>
